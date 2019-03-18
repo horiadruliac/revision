@@ -1,0 +1,6 @@
+What is the capital city of England?
+London
+What language was this programmed in?
+Haskell
+Who created the 5-guess Mastermind algorithm?
+Donald Knuth
