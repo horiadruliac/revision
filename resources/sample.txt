@@ -4,3 +4,6 @@ What language was this programmed in?
 Haskell
 Who created the 5-guess Mastermind algorithm?
 Donald Knuth
+Who is one of Horia's best friends? 
+Matthew Bardsley
+
