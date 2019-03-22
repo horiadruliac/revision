@@ -42,7 +42,7 @@ getRandLine strArr overflow = do
     putStrLn $ strArr !! questionIndex
     firstResponse <- getLine
     putStrLn $ strArr !! (questionIndex + 1)
-    putStr "Did you get this correct? "
+    putStrLn "Did you get this correct?"
     yesOrNo <- getLine
     case (determineYes yesOrNo) of
         True -> getRandLine (delFrom questionIndex strArr) overflow
@@ -65,8 +65,8 @@ addTo :: Int -> [String] -> [String] -> [String]
 addTo x xs ys = f:s:ys where
     (_, (f:s:_)) = splitAt x xs
 
-removeHeads :: [a] -> [a]
-removeHeads (x:y:xs) = xs
+removeHeads :: [String] -> [String]
+removeHeads xs = [x | x <- xs, x /= ".", x /= ".."]
 
 printFancy :: [String] -> IO ()
 printFancy [x] = do
@@ -77,7 +77,7 @@ printFancy (x:xs) = do
 
 enterFile :: [String] -> IO String
 enterFile available = do
-    putStr "Which file would you like to choose? "
+    putStrLn "Which file would you like to choose?"
     response <- getLine
     if (elem response available)
         then
