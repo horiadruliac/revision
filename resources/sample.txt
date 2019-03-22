@@ -1,5 +1,5 @@
 What is the capital city of England?
-London
+London 
 What language was this programmed in?
 Haskell
 Who created the 5-guess Mastermind algorithm?
@@ -10,3 +10,5 @@ Who is one of Matthew's best friends?
 Horia Druliac 
 
 :)
+Is there any difference between quantifiers order? (e.g: for all x there exists y vs there exists x for all y)
+Yes
