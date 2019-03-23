@@ -8,5 +8,7 @@ Who is one of Horia's best friends?
 Matthew Bardsley
 Who is one of Matthew's best friends?
 Horia Druliac 
-Is there any difference between quantifiers order? (e.g: for all x there exists y vs there exists x for all y)
+Is there any difference between quantifiers' order? (e.g: for all x there exists y vs there exists x for all y)
 Yes
+When are two sets called disjoint?
+When their intersection is the empty set.
